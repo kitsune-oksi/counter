@@ -1,0 +1,64 @@
+.countContainer {
+    border: solid 3px darkmagenta;
+    border-radius: 15px;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 250px;
+    padding: 15px;
+}
+
+.display {
+    border-radius: 15px;
+    background-color: darkmagenta;
+    font-size: 100px;
+    padding: 20px 0;
+    color: thistle;
+    font-family: "Monaco";
+    font-weight: bold;
+}
+
+.buttonContainer {
+    border: solid 3px darkmagenta;
+    border-radius: 15px;
+    margin-top: 15px;
+    padding: 15px 0;
+}
+
+.button {
+    border-radius: 15px;
+    background-color: darkmagenta;
+    border: none;
+    cursor: pointer;
+    font-family: "Monaco";
+    color: thistle;
+    font-weight: bold;
+    font-size: 30px;
+    padding: 10px;
+    width: 150px;
+    margin: 0 10px;
+}
+
+.button:hover {
+    background-color: mediumorchid;
+}
+
+.button:active {
+    background-color: purple;
+}
+
+.limitCount {
+    color: hotpink;
+}
+
+.disableButton {
+    opacity: 50%;
+    cursor: not-allowed;
+}
+.disableButton:hover {
+    background-color: darkmagenta;
+}
+
+.disableButton:active {
+    background-color: darkmagenta;
+}
