@@ -11,11 +11,54 @@
 .display {
     border-radius: 15px;
     background-color: darkmagenta;
-    font-size: 100px;
-    padding: 20px 0;
+    height: 180px;
     color: thistle;
     font-family: "Monaco";
     font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+
+.warning {
+    color: hotpink;
+}
+
+.settingDisplay {
+    font-size: 30px;
+}
+
+.countDisplay {
+    font-size: 100px;
+}
+
+.settings {
+    border-radius: 15px;
+    border: solid 3px darkmagenta;
+    height: 180px;
+    font-family: "Monaco";
+    color: darkmagenta;
+    font-weight: bold;
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.settings input {
+    font: inherit;
+    width: 100px;
+    border: none;
+    background-color: darkmagenta;
+    border-radius: 15px;
+    color: thistle;
+    padding-left: 30px;
+}
+
+.settings input:hover {
+    border: none;
 }
 
 .buttonContainer {
@@ -45,10 +88,6 @@
 
 .button:active {
     background-color: purple;
-}
-
-.limitCount {
-    color: hotpink;
 }
 
 .disableButton {
